@@ -1,5 +1,5 @@
 import 'server-only';
-import { env } from '@repo/env';
+import { env } from '@titan/env';
 import type { ReactElement } from 'react';
 import { cn } from '../lib/utils';
 

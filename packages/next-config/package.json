@@ -1,10 +1,10 @@
 {
-  "name": "@repo/next-config",
+  "name": "@titan/next-config",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
-    "@repo/env": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@titan/env": "workspace:*",
+    "@titan/typescript-config": "workspace:*",
     "next": "15.0.2"
   },
   "dependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "@repo/email-templates",
+  "name": "@titan/email-templates",
   "version": "0.0.0",
   "private": true,
   "exports": {
@@ -11,7 +11,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
+    "@titan/typescript-config": "workspace:*",
     "@types/node": "22.9.0",
     "@types/react": "18.3.12",
     "@types/react-dom": "^18.3.1",

@@ -8,7 +8,7 @@ import {
   DotFilledIcon,
 } from "@radix-ui/react-icons"
 
-import { cn } from "@repo/design-system/lib/utils"
+import { cn } from "@titan/design-system/lib/utils"
 
 const ContextMenu = ContextMenuPrimitive.Root
 

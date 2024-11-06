@@ -1,6 +1,6 @@
 import { withContentCollections } from '@content-collections/next';
-import { env } from '@repo/env';
-import { config, withAnalyzer, withSentry } from '@repo/next-config';
+import { env } from '@titan/env';
+import { config, withAnalyzer, withSentry } from '@titan/next-config';
 import type { NextConfig } from 'next';
 
 let nextConfig: NextConfig = { ...config };

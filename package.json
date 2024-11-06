@@ -1,5 +1,5 @@
 {
-  "name": "next-forge",
+  "name": "titan",
   "version": "2.10.10",
   "bin": {
     "next-forge": "./index.js"
@@ -8,25 +8,25 @@
     "index.js"
   ],
   "scripts": {
+    "analyze": "turbo analyze",
     "build": "turbo build",
+    "bump-deps": "npx npm-check-updates --deep -u -x react-day-picker && pnpm install",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "test": "turbo test",
-    "analyze": "turbo analyze",
-    "bump-deps": "npx npm-check-updates --deep -u -x react-day-picker && pnpm install",
-    "migrate": "cd packages/database && npx prisma format && npx prisma generate && npx prisma db push"
+    "migrate": "cd packages/database && npx prisma format && npx prisma generate && npx prisma db push",
+    "test": "turbo test"
   },
   "devDependencies": {
     "@auto-it/all-contributors": "^11.3.0",
     "@auto-it/first-time-contributor": "^11.3.0",
     "@biomejs/biome": "1.9.4",
-    "@repo/typescript-config": "workspace:*",
+    "@titan/typescript-config": "workspace:*",
     "turbo": "^2.2.3",
     "typescript": "^5.6.3",
     "ultracite": "^4.1.6"
   },
+  "packageManager": "pnpm@9.12.3",
   "engines": {
     "node": ">=18"
-  },
-  "packageManager": "pnpm@9.12.3"
+  }
 }

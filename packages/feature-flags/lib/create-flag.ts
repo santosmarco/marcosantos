@@ -1,5 +1,5 @@
 import { auth } from '@clerk/nextjs/server';
-import { analytics } from '@repo/design-system/lib/analytics/server';
+import { analytics } from '@titan/design-system/lib/analytics/server';
 import { unstable_flag as flag } from '@vercel/flags/next';
 
 export const createFlag = (key: string) =>

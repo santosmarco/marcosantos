@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config/react-library.json",
+  "extends": "@titan/typescript-config/react-library.json",
   "compilerOptions": {
     "baseUrl": ".",
     "plugins": [
@@ -8,7 +8,7 @@
       }
     ],
     "paths": {
-      "@repo/design-system/*": ["./*"]
+      "@titan/design-system/*": ["./*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],

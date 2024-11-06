@@ -1,4 +1,4 @@
-import { capitalize } from '@repo/design-system/lib/utils';
+import { capitalize } from '@titan/design-system/lib/utils';
 import { getTableOfContents } from 'fumadocs-core/server';
 import type { ReactElement } from 'react';
 

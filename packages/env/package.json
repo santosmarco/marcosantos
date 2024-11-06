@@ -1,5 +1,5 @@
 {
-  "name": "@repo/env",
+  "name": "@titan/env",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "typescript": "^5.6.3",
-    "@repo/typescript-config": "workspace:*",
+    "@titan/typescript-config": "workspace:*",
     "@types/node": "22.9.0"
   }
 }

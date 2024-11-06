@@ -1,6 +1,6 @@
 import { auth, currentUser } from '@clerk/nextjs/server';
-import { SidebarProvider } from '@repo/design-system/components/ui/sidebar';
-import { showBetaFeature } from '@repo/feature-flags';
+import { SidebarProvider } from '@titan/design-system/components/ui/sidebar';
+import { showBetaFeature } from '@titan/feature-flags';
 import type { ReactElement, ReactNode } from 'react';
 import { PostHogIdentifier } from './components/posthog-identifier';
 import { GlobalSidebar } from './components/sidebar';

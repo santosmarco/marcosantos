@@ -1,9 +1,9 @@
 import { clerkClient } from '@clerk/nextjs/server';
 import { log } from '@logtail/next';
-import { analytics } from '@repo/design-system/lib/analytics/server';
-import { parseError } from '@repo/design-system/lib/error';
-import { stripe } from '@repo/design-system/lib/stripe';
-import { env } from '@repo/env';
+import { analytics } from '@titan/design-system/lib/analytics/server';
+import { parseError } from '@titan/design-system/lib/error';
+import { stripe } from '@titan/design-system/lib/stripe';
+import { env } from '@titan/env';
 import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
 import type Stripe from 'stripe';
