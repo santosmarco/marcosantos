@@ -1,5 +1,5 @@
-import { Button } from '@repo/design-system/components/ui/button';
-import { env } from '@repo/env';
+import { Button } from '@titan/design-system/components/ui/button';
+import { env } from '@titan/env';
 import { MoveRight, PhoneCall } from 'lucide-react';
 import Link from 'next/link';
 

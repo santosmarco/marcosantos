@@ -6,8 +6,8 @@ import type {
   WebhookEvent,
 } from '@clerk/nextjs/server';
 import { log } from '@logtail/next';
-import { analytics } from '@repo/design-system/lib/analytics/server';
-import { env } from '@repo/env';
+import { analytics } from '@titan/design-system/lib/analytics/server';
+import { env } from '@titan/env';
 import { headers } from 'next/headers';
 import { Webhook } from 'svix';
 

@@ -10,10 +10,10 @@
     "cssVariables": true
   },
   "aliases": {
-    "components": "@repo/design-system/components",
-    "utils": "@repo/design-system/lib/utils",
-    "hooks": "@repo/design-system/hooks",
-    "lib": "@repo/design-system/lib",
-    "ui": "@repo/design-system/components/ui"
+    "components": "@titan/design-system/components",
+    "utils": "@titan/design-system/lib/utils",
+    "hooks": "@titan/design-system/hooks",
+    "lib": "@titan/design-system/lib",
+    "ui": "@titan/design-system/components/ui"
   }
 }

@@ -1,6 +1,6 @@
-import '@repo/design-system/styles/globals.css';
-import { fonts } from '@repo/design-system/lib/fonts';
-import { DesignSystemProvider } from '@repo/design-system/providers';
+import '@titan/design-system/styles/globals.css';
+import { fonts } from '@titan/design-system/lib/fonts';
+import { DesignSystemProvider } from '@titan/design-system/providers';
 import { Analytics } from '@vercel/analytics/react';
 import type { ReactNode } from 'react';
 import { Footer } from './components/footer';

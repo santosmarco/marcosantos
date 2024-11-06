@@ -1,10 +1,10 @@
 {
-  "name": "@repo/feature-flags",
+  "name": "@titan/feature-flags",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
     "@clerk/nextjs": "^6.2.0",
-    "@repo/design-system": "workspace:*",
+    "@titan/design-system": "workspace:*",
     "@vercel/flags": "^2.6.3"
   },
   "peerDependencies": {
@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "typescript": "^5.6.3",
-    "@repo/typescript-config": "workspace:*"
+    "@titan/typescript-config": "workspace:*"
   }
 }

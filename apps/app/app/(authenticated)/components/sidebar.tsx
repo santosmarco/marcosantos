@@ -1,19 +1,19 @@
 'use client';
 
 import { OrganizationSwitcher, UserButton } from '@clerk/nextjs';
-import { ModeToggle } from '@repo/design-system/components/mode-toggle';
+import { ModeToggle } from '@titan/design-system/components/mode-toggle';
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@repo/design-system/components/ui/collapsible';
+} from '@titan/design-system/components/ui/collapsible';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@repo/design-system/components/ui/dropdown-menu';
+} from '@titan/design-system/components/ui/dropdown-menu';
 import {
   Sidebar,
   SidebarContent,
@@ -31,8 +31,8 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
   useSidebar,
-} from '@repo/design-system/components/ui/sidebar';
-import { cn } from '@repo/design-system/lib/utils';
+} from '@titan/design-system/components/ui/sidebar';
+import { cn } from '@titan/design-system/lib/utils';
 import {
   BookOpenIcon,
   BotIcon,

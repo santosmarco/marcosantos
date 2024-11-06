@@ -1,5 +1,5 @@
-import { Status } from '@repo/design-system/components/status';
-import { env } from '@repo/env';
+import { Status } from '@titan/design-system/components/status';
+import { env } from '@titan/env';
 import Link from 'next/link';
 
 export const Footer = () => {

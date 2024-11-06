@@ -1,8 +1,8 @@
 import { Mdx } from '@/components/mdx';
 import { Sidebar } from '@/components/sidebar';
 import { ArrowLeftIcon } from '@radix-ui/react-icons';
-import { createMetadata } from '@repo/design-system/lib/metadata';
-import { env } from '@repo/env';
+import { createMetadata } from '@titan/design-system/lib/metadata';
+import { env } from '@titan/env';
 import { allPosts } from 'content-collections';
 import type { Metadata } from 'next';
 import Image from 'next/image';

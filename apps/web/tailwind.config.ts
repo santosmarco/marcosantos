@@ -1,1 +1,1 @@
-export { default } from '@repo/design-system/tailwind.config';
+export { default } from '@titan/design-system/tailwind.config';

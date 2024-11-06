@@ -1,4 +1,4 @@
 import { log as logtail } from '@logtail/next';
-import { env } from '@repo/env';
+import { env } from '@titan/env';
 
 export const log = env.NODE_ENV === 'production' ? logtail : console;

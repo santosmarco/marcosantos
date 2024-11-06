@@ -1,4 +1,4 @@
-import { env } from '@repo/env';
+import { env } from '@titan/env';
 import posthog, { type PostHog } from 'posthog-js';
 
 export const analytics = posthog.init(env.NEXT_PUBLIC_POSTHOG_KEY, {

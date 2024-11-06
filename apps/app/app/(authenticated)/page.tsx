@@ -1,4 +1,4 @@
-import { database } from '@repo/database';
+import { database } from '@titan/database';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -6,9 +6,9 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '@repo/design-system/components/ui/breadcrumb';
-import { Separator } from '@repo/design-system/components/ui/separator';
-import { SidebarTrigger } from '@repo/design-system/components/ui/sidebar';
+} from '@titan/design-system/components/ui/breadcrumb';
+import { Separator } from '@titan/design-system/components/ui/separator';
+import { SidebarTrigger } from '@titan/design-system/components/ui/sidebar';
 import type { Metadata } from 'next';
 import type { ReactElement } from 'react';
 

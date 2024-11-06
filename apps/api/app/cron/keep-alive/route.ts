@@ -1,4 +1,4 @@
-import { database } from '@repo/database';
+import { database } from '@titan/database';
 
 export const POST = async () => {
   const newPage = await database.page.create({
