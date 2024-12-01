@@ -10,7 +10,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.2.0",
+    "@clerk/nextjs": "^6.5.1",
     "@titan/database": "workspace:*",
     "@titan/design-system": "workspace:*",
     "@titan/feature-flags": "workspace:*",
